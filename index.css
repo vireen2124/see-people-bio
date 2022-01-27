@@ -1,0 +1,117 @@
+body{
+    padding:0;
+    margin:0;
+}
+span{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.content-wrapper{
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.4),rgb(255,255,255)) ;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:2rem;
+    border-radius:1rem;
+    
+}
+
+.show-bio-container{
+    display:none;
+}
+.none{
+    display:none;
+    opacity: 0;
+}
+
+
+label{
+    text-transform: capitalize;
+    font-size: large;
+    
+}
+input,textarea{
+    margin-bottom: 1rem;
+    padding:.4rem .3rem;
+    border-radius: 4px;
+    width:30vw;
+    border:none
+}
+/* .job{
+
+} */
+::placeholder{
+    text-transform: uppercase;
+    font-size:1rem;
+}
+.submit{
+    padding:1rem;
+    background-color: goldenrod;
+    border-radius: 1rem;
+    text-decoration: none;
+    color:red;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition:.5s ease-in-out
+
+}
+.submit:hover{
+    background-color: rgba(0,128,0,0.3);
+
+}
+.person-image{
+    width:10vw;
+    height:10vw;
+    border-radius: 50%;
+    
+}
+.show-person-details{
+    background-image:linear-gradient(to top, rgba(0,0,0,0.4),rgb(255,255,255)) ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:35vw;
+    padding:1rem;
+    border-radius: 1rem;
+}
+
+.person-name{
+    color:maroon;
+    font-weight: bold;
+}
+.person-job{
+    color:rgb(0, 41, 128);
+    font-weight: bold;
+    font-size: 1rem;
+}
+.person-bio{
+    font-size: .7rem;
+    letter-spacing: .1rem;
+    word-break: break;
+}
+.buttons{
+    font-size:1rem;
+    color: white;
+    background-color: maroon;
+    padding:.3rem;
+    border-radius: 1rem;
+    transition: .5s ease-in-out;
+}
+.buttons:hover{
+    background-color: rgba(128,0,0,.7);
+}
+.next-prev-btn{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;  
+}
+.next-btn{
+    margin-left:auto;
+}
